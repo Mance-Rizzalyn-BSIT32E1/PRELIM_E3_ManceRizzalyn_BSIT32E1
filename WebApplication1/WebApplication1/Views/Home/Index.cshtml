@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+    body {
+        background: url("../../bg.jpg");
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+    }
+    h2 {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: right;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    h4 {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: right;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    p {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        margin-top: 3%;
+        color: white;
+    }
+
+    nav {
+        background-color: beige;
+    }
+
+    .nav-links {
+        font-family: 'Times New Roman', Times, serif;
+        background-color: white;
+        box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
+    }
+
+        .nav-links:hover {
+            background-color: lightgray;
+        }
+
+    .Profile {
+        margin-top: 1%;
+        margin-right: 50%;
+        border-radius: 40%;
+        width: 200px;
+        height: 300px;
+    }
+</style>
+<div class="head">
+    <img src="/img.png" alt="me" class="Profile" />
+    <h4>Bachelor of Science <br>In information Technology(BSIT)</h4>
+
+</div>
+<div class="text-center">
+    <h2 class="display-4">Hello! I'm Rizzalyn L. Mance.</h2>
+    <p>I'm a 3rd-year college student at Lyceum of Alabang, pursuing a Bachelor of Science in Information Technology (BSIT). </p>
+    <button class="nav-links"><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="School">My schedule</a></button>
+</div>
+
